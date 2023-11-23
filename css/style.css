@@ -4,7 +4,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
 .navItem {
   color: #242f51;
-  font-size: 16px;
+  font-size: 1 rem;
   font-family: "Poppins";
 }
 
@@ -44,8 +44,8 @@ img.img-fluid.w-80 {
 
 .btn-sec3 {
   background: #f55767;
-  width: 150px;
-  height: 60px;
+  width: 9.4 rem;
+  height: 3.75 rem;
   color: white;
   font-family: "Poppins";
   font-weight: bold;

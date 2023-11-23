@@ -4,7 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
 .navItem {
     color: $NavbarColorItem;
-    font-size: 16px;
+    font-size: 1 rem;
     font-family:  $navbarFontFamily;
 }
 .badge1{
@@ -42,8 +42,8 @@ font-family:  $heroFontFamily;
 $textsec3 : #616368 ;
 .btn-sec3 {
     background:#f55767;
-    width:150px;
-    height: 60px;
+    width:9.375 rem;
+    height: 3.75 rem;
     color:white;
     font-family: 'Poppins';
     font-weight:bold;
@@ -57,13 +57,13 @@ $textsec3 : #616368 ;
     font-family: 'Poppins';
     font-weight:bolder;
 }
-$largesection3:215px;
-$espacetxt-buth:40 px;
+$largesection3:13.5 rem;
+$espacetxt-buth:2.5 rem;
 
 
 
 footer {
-  //position: fixed;
+  //position: relative;
   bottom: 0;
   width: 100%;
   background-color: $footer-background-color;
@@ -91,7 +91,7 @@ footer {
 
       .p-2 {
         padding: 2rem 2rem;
-        margin-right: 1.5rem; // Adjust margin-right for space between menu items
+        margin-right: 1.5rem; 
       }
     }
   }
